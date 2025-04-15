@@ -1,0 +1,10 @@
+CREATE TABLE config (
+    chave_pix TEXT,
+    nome_recebedor TEXT,
+    cidade TEXT,
+    mensagem_pix TEXT,
+    valor_extra TEXT
+);
+
+INSERT INTO config (chave_pix, nome_recebedor, cidade, mensagem_pix, valor_extra) 
+VALUES ('', '', '', '', '0.00');
