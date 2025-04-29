@@ -4,4 +4,4 @@ services:
     name: gerar-pix-api
     env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn app.py
+    startCommand: gunicorn app:app
